@@ -1,4 +1,4 @@
-simple-breadcrumbs
+simple-breadcrumbs and paginate
 ==================
 
-simple-breadcrumbs for python web apps
+simple breadcrumbs and paginate for python web apps
