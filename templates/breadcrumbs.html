@@ -1,0 +1,10 @@
+{#<nav id="path">
+    <a href="/">{{ gettext('Index page') }}</a>
+    {% for item in path %}
+        {% if not loop.last %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        {% else %}
+            <span>{{ item.title }}</span>
+        {% endif %}
+    {% endfor %}
+</nav>#}
